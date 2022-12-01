@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.bridgelabz.Student">
+    	<property name="studentName" value= "Rajashekhar" />
+    	<property name="id" value= "1" />
+    </bean>
+    
+    <bean id="bridgelabz" class="com.bridgelabz.Student">
+    	<property name="studentName" value= "bridgelabz" />
+    	<property name="id" value= "2" />
+    </bean>
+    
+</beans> 

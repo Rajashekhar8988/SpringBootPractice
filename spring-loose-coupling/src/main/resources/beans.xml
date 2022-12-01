@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+        <bean id="mathCheatObjectValue" class="com.bridgelabz.MathCheat"></bean>
+        <bean id="scienceCheatObjectValue" class="com.bridgelabz.ScienceCheat"></bean>
+        <bean id="javaCheatObjectValue" class="com.bridgelabz.JavaCheat"></bean>
+
+        <bean id ="stu" class="com.bridgelabz.Student">
+        	<property name="cheat" ref="javaCheatObjectValue">
+         	</property>
+        </bean>
+        
+</beans> 
